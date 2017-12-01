@@ -43,14 +43,15 @@ class RefreshFlatList extends PureComponent {
     footerRefreshingText: propTypes.string,
     footerFailureText: propTypes.string,
     footerNoMoreDataText: propTypes.string,
-    onHeaderRefresh: propTypes.func,
-    onFooterRefresh: propTypes.func,
     footerContainerStyle: propTypes.object,
     footerTextStyle: propTypes.object,
-    EmptyComponent: propTypes.object,
-    FailureComponent: propTypes.object,
     ItemSeparatorComponent: propTypes.func,
     ListHeaderComponent: propTypes.func,
+    onHeaderRefresh: propTypes.func,
+    onFooterRefresh: propTypes.func,
+
+    EmptyComponent: propTypes.object,
+    FailureComponent: propTypes.object,
   }
 
   constructor(props) {
