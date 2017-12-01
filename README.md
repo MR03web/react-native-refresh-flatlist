@@ -19,10 +19,11 @@ npm install --save react-native-refresh-flatlist
 yarn add react-native-refresh-flatlist
 ```
 ## Props
-| Prop | Type | Description | Default |
 
-| data | Array | 数据 | [] |
-| keyExtractor | Func | 同FlatList | 默认key为id |
+| Prop  | Type  | Description | Default |
+| :---: | :---: | :---------: | :------ |
+| data         | Array | 数据       | []          |
+| keyExtractor | Func  | 同FlatList | 默认key为id |
 
 ## 最后
 
