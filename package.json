@@ -1,0 +1,20 @@
+{
+  "name": "react-native-refresh-flatlist",
+  "version": "1.0.0",
+  "main": "RefreshFlatList.js",
+  "repository": "https://github.com/MR03web/react-native-refresh-flatlist.git",
+  "author": "MR03web",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-native-refresh",
+    "react-native-refresh-flatlist",
+    "flatlist",
+    "list",
+    "refresh"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0"
+  }
+}
